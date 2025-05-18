@@ -12,7 +12,7 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
-
+/*Header*/
 .top-header {
     background-color: #fff;
     padding: 15px 0;
@@ -54,7 +54,7 @@ body {
     cursor: pointer;
     outline: none;
 }
-
+/*Меню навігації*/
 nav ul {
     list-style: none;
     padding: 0;
@@ -79,6 +79,7 @@ nav ul li a:hover {
     background-color: #f0f0f0;
 }
 
+/*header-actions*/
 .header-actions {
     display: flex;
     align-items: center;
@@ -107,6 +108,7 @@ nav ul li a:hover {
 .header-actions .cart::before { content: '🛒'; margin-left: 5px; }
 .header-actions .menu-toggle { display: none; }
 
+/*карусель товарів*/
 .tea-carousel {
     padding: 30px 0;
     background-color: #f0fbe7;
@@ -182,6 +184,7 @@ nav ul li a:hover {
     background-color: #558b2f;
 }
 
+/* Частина Про нас*/
 .about-us {
     padding: 40px 0;
     background-color: #fff;
@@ -245,6 +248,7 @@ nav ul li a:hover {
     height: auto;
 }
 
+/*Частина топ продаж товарів*/
 .top-sell {
     padding: 50px 0;
     background-color: #f8f8f8;
@@ -315,6 +319,7 @@ nav ul li a:hover {
     margin-top: auto;
 }
 
+/*Частина з відгуками*/
 .reviews {
     padding: 50px 0;
     background-color: #fff;
@@ -486,6 +491,7 @@ nav ul li a:hover {
     background-color: #457025;
 }
 
+/*Футер сайту*/
 footer {
     background-color: #aed581;
     color: #333;
@@ -605,6 +611,7 @@ footer {
     padding: 0 20px;
 }
 
+/*Секція для адаптивного дизайну*/
 @media (max-width: 768px) {
     .top-header-content {
         flex-direction: column;
